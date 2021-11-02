@@ -14,6 +14,10 @@
     <meta name="generator" content="Nicepage 3.29.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
+    
+    
+    
+    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -41,6 +45,7 @@
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Accueil.html" style="padding: 10px 18px;">Accueil</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Research.html" style="padding: 10px 18px;">Research</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Conferences.html" style="padding: 10px 18px;">Conferences</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="CV.html" style="padding: 10px 18px;">CV</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Contact.html" style="padding: 10px 18px;">Contact</a>
 </li></ul>
           </div>
@@ -51,6 +56,7 @@
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Accueil.html" style="padding: 10px 18px;">Accueil</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Research.html" style="padding: 10px 18px;">Research</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Conferences.html" style="padding: 10px 18px;">Conferences</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="CV.html" style="padding: 10px 18px;">CV</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html" style="padding: 10px 18px;">Contact</a>
 </li></ul>
               </div>
@@ -58,7 +64,79 @@
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header> 
+      </div></header>
+    <section class="u-clearfix u-section-1" id="sec-7ffa">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h6 class="u-align-center u-text u-text-default u-text-1">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://arxiv.org/abs/2105.12149" target="_blank"> Euclid preparation: XIII. Forecasts for galaxy morphology ​with the Euclid Survey using Deep Generative Models </a>
+        </h6>
+        <p class="u-align-justify u-text u-text-2"> In this paper, we simulate realistic galaxies with a Deep Learning model called Flow Variational AutoEncoder (FVAE). The galaxies are learn from real space images, by the <span style="font-style: italic;">Hubble Space Telescope. <span style="font-weight: 400; font-style: normal;">In addition to the realsitic morphologies learn by the VAE, we also have a good control of the parameters (size, ellipticity and sersic index) thanks to a trained regressive Flow. We used our simulation to forecast the number of <span style="font-style: italic;">interesting</span> galaxies for galaxy science that Euclid will be able to resove. We also created a benchmark to evaluate the relative speed of our model compared to classical simulations.
+            </span>
+          </span>
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-8528">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <img class="u-image u-image-default u-image-1" src="images/structures.png" alt="" data-image-width="725" data-image-height="383">
+                </div>
+              </div>
+              <div class="u-align-justify u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-text u-text-default u-text-1"> Our model is able to learn complex morphologies. You can see here some examples of spiral arms, rings, clumps and bars. This is done thnaks to a Variational AutoEncoders (VAE). The VAE is amde of two convolutional Neural Networks: an Encoder and Decoder. The Encoder learns the latent distribution of pixels inside a small space, called latent space. The Decoder learns to decode a sample from this representation to recreate the input image. By minimizing the difference between the input image and its reconstruction, we force the representation in the latenstapce to be meaningful. In addition, by regularising the encoded distribution, we can sample this learnt latent space to create new galaxies.<br>Nevertheless, we don't have any control on the properties of the produced galaxies. This is why we introduce a regressive flow.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-3" id="sec-9cc1">
+      <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-justify u-container-style u-layout-cell u-size-33 u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <p class="u-text u-text-default u-text-1"> Thanks to the regressive Flow, we learn to map the physical parameter space to the latent space of the trained VAE. In practice, a galaxy with known parameter is encoded by the trained Encoder. Then, the Flow is trained to map this distribution to a Normal Gaussian distribution, conditionned to the physical parameter of the encoded galaxy. Because the transformation is bijective, we can, once trained, transform a sample from a Normal Gaussian distribution to a position in the latent space. If the Flow is well trained, this sample will be decoded to galaxy with the wanted input physical parameters. In the plot on the right, you can see some parameters fitted by a fitting algorithm on our simulated galaxies (orange) and on analytical profiles (blue), versus the true parameter of the simulated galaxy. We see no major departure between blue and orange points, meaning that our Flow is working. The small difference between the two can also be due to the fact that our complexe galaxies are harder to fit by the fitting algorithm.</p>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-27 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <img class="u-expanded-height u-image u-image-default u-image-1" src="images/fig_for_website.png" alt="" data-image-width="694" data-image-height="687">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-4" id="sec-bb4d">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-32 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <img class="u-image u-image-default u-image-1" src="images/forecast_sb.png" alt="" data-image-width="1197" data-image-height="641">
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-28 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-text u-text-default u-text-1"> We used our simulation to forecast the number of interesting galaxies for galaxy science that Euclid will be able to resolve. By interesting, we mean galaxies with resolvable structures, irregularities. In the left plot of the figure, we show the percentage of those galaxies regarding the surface brightness of the galaxies. In red for the wide field of Euclid and in blue for the Deep Field. We show that above ~22.5, the wide field will be able to resolve barely no interesting galaxies, and around two magnitude higher for the Deep Field. On the plot on the right, we show the total number of interesting galaxies regarding the surface brightness. Even if the percentage decrease with surface brightness, because the total number of galaxies in the sky is larger at high SB, the total number of interesting galaxies increase at the beginning. In total, we estimate the number of those galaxies to be around 250 millions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-c437"><div class="u-align-left u-clearfix u-sheet u-sheet-1">
