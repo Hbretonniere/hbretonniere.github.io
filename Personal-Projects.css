@@ -158,24 +158,6 @@
   padding: 30px;
 }
 
-.u-section-1 .u-text-8 {
-  margin-left: 0;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-text-9 {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-text-10 {
-  margin-left: 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-1 .u-line-1 {
     width: 940px;
