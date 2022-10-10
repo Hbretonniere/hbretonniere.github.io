@@ -6,7 +6,7 @@
   font-style: italic;
   margin: 22px auto;
 }.u-section-2 .u-sheet-1 {
-  min-height: 533px;
+  min-height: 515px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
@@ -15,11 +15,11 @@
 }
 
 .u-section-2 .u-layout-cell-1 {
-  min-height: 532px;
+  min-height: 513px;
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 15px 30px;
+  padding: 15px 18px 3px;
 }
 
 .u-section-2 .u-text-1 {
@@ -27,45 +27,33 @@
 }
 
 .u-section-2 .u-image-1 {
-  width: 100px;
-  height: 100px;
-  margin: 43px 10px 0 auto;
+  width: 255px;
+  height: 255px;
+  background-image: url("images/tedtalk.jpg");
+  background-position: 50% 50%;
+  margin: 46px auto 0;
 }
 
 .u-section-2 .u-image-2 {
-  width: 255px;
-  height: 255px;
-  background-image: url("images/Capturedecran2021-09-03a11.50.26.jpg");
-  background-position: 50% 50%;
-  margin: -114px auto 0;
+  width: 112px;
+  height: 205px;
+  margin: -222px 13px 0 auto;
 }
 
 .u-section-2 .u-image-3 {
-  width: 109px;
-  height: 100px;
-  margin: -74px auto 0 26px;
+  width: 122px;
+  height: 122px;
+  margin: -171px auto 0 6px;
 }
 
 .u-section-2 .u-image-4 {
-  width: 100px;
-  height: 100px;
-  margin: -12px auto 0;
-}
-
-.u-section-2 .u-image-5 {
-  width: 100px;
-  height: 100px;
-  margin: -184px 33px 0 auto;
-}
-
-.u-section-2 .u-image-6 {
-  width: 118px;
-  height: 79px;
-  margin: -259px auto 0 10px;
+  width: 255px;
+  height: 87px;
+  margin: 83px auto 0;
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 532px;
+  min-height: 513px;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -75,7 +63,7 @@
 .u-section-2 .u-text-2 {
   font-size: 1.875rem;
   line-height: 1.5;
-  margin: 79px 0 0;
+  margin: 38px 0 0;
 }
 
 .u-section-2 .u-btn-1 {
@@ -93,6 +81,11 @@
   padding: 0;
 }
 
+.u-section-2 .u-btn-4 {
+  background-image: none;
+  padding: 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
     min-height: 1523px;
@@ -103,16 +96,24 @@
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 439px;
+    min-height: 423px;
   }
 
-  .u-section-2 .u-image-2 {
-    margin-top: 20px;
+  .u-section-2 .u-image-1 {
+    margin-top: 163px;
     margin-right: 10px;
   }
 
+  .u-section-2 .u-image-2 {
+    margin-top: -267px;
+  }
+
+  .u-section-2 .u-image-3 {
+    margin-top: -161px;
+  }
+
   .u-section-2 .u-layout-cell-2 {
-    min-height: 439px;
+    min-height: 423px;
   }
 }
 
@@ -125,17 +126,6 @@
     min-height: 100px;
   }
 
-  .u-section-2 .u-image-4 {
-    margin-top: 20px;
-    margin-left: 26px;
-  }
-
-  .u-section-2 .u-image-5 {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: 26px;
-  }
-
   .u-section-2 .u-layout-cell-2 {
     min-height: 100px;
   }
@@ -144,10 +134,6 @@
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
     min-height: 1720px;
-  }
-
-  .u-section-2 .u-layout-cell-1 {
-    min-height: 781px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -171,10 +157,6 @@
     margin-bottom: 0;
   }
 
-  .u-section-2 .u-layout-cell-1 {
-    min-height: 499px;
-  }
-
   .u-section-2 .u-container-layout-1 {
     padding: 0;
   }
@@ -184,44 +166,8 @@
   }
 
   .u-section-2 .u-image-1 {
-    width: 62px;
-    height: 59px;
-    margin-top: 30px;
-    margin-right: 14px;
-  }
-
-  .u-section-2 .u-image-2 {
-    margin-top: -30px;
+    margin-top: 59px;
     margin-right: auto;
-  }
-
-  .u-section-2 .u-image-3 {
-    width: 68px;
-    height: 73px;
-    margin-top: -28px;
-    margin-left: 10px;
-  }
-
-  .u-section-2 .u-image-4 {
-    width: 68px;
-    height: 72px;
-    margin-top: -35px;
-    margin-left: auto;
-  }
-
-  .u-section-2 .u-image-5 {
-    width: 62px;
-    height: 63px;
-    margin-top: -110px;
-    margin-right: 14px;
-    margin-left: auto;
-  }
-
-  .u-section-2 .u-image-6 {
-    width: 80px;
-    height: 53px;
-    margin-top: -313px;
-    margin-left: 14px;
   }
 
   .u-section-2 .u-layout-cell-2 {
